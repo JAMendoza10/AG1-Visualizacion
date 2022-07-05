@@ -21,6 +21,6 @@ d3.json( "https://raw.githubusercontent.com/raul27868/07MBIG-Visualizacion-Activ
     .id("name")
     .x("year")
     .y("value")
-    .axes({"ticks": false})
+    .axes({ticks: "false"})
     .draw();
 });
